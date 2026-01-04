@@ -31,7 +31,7 @@ spec:
         # 挂载本地磁盘写日志
         - name: demo-service-starter-logs
           hostPath:
-            path: /data/demo-service-starter-prod/logs
+            path: /data/demo-service-starter-uat/logs
             type: DirectoryOrCreate
         # 挂载 ConfigMap
         - name: demo-service-starter
