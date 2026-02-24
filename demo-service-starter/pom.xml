@@ -28,6 +28,11 @@
             <artifactId>generator-server</artifactId>
             <version>${revision}</version>
         </dependency>
+        <dependency>
+            <groupId>com.wkclz.microapp</groupId>
+            <artifactId>micro-k8s</artifactId>
+            <version>${micro.version}</version>
+        </dependency>
 
     </dependencies>
 

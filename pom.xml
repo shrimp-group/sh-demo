@@ -24,6 +24,7 @@
 
     <properties>
         <revision>5.0.0-SNAPSHOT</revision>
+        <micro.version>5.0.0-SNAPSHOT</micro.version>
 
         <maven.compiler.source>25</maven.compiler.source>
         <maven.compiler.target>25</maven.compiler.target>

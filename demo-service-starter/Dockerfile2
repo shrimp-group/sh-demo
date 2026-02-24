@@ -1,3 +1,5 @@
+# 依赖于流水线编译出来的 demo-service-starter/target/*.jar, 效率依赖于编译环境
+
 # 基础镜像使用java
 FROM eclipse-temurin:25-jdk-alpine
 
