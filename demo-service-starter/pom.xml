@@ -34,6 +34,73 @@
             <version>${micro.version}</version>
         </dependency>
 
+
+        <dependency>
+            <groupId>com.wkclz.microapp</groupId>
+            <artifactId>micro-audit</artifactId>
+            <version>${micro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wkclz.microapp</groupId>
+            <artifactId>micro-file</artifactId>
+            <version>${micro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wkclz.microapp</groupId>
+            <artifactId>micro-form</artifactId>
+            <version>${micro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wkclz.microapp</groupId>
+            <artifactId>micro-fun</artifactId>
+            <version>${micro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wkclz.microapp</groupId>
+            <artifactId>micro-liteflow</artifactId>
+            <version>${micro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wkclz.microapp</groupId>
+            <artifactId>micro-mask</artifactId>
+            <version>${micro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wkclz.microapp</groupId>
+            <artifactId>micro-msg</artifactId>
+            <version>${micro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wkclz.microapp</groupId>
+            <artifactId>micro-pay</artifactId>
+            <version>${micro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wkclz.microapp</groupId>
+            <artifactId>micro-pdf</artifactId>
+            <version>${micro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wkclz.microapp</groupId>
+            <artifactId>micro-rmcheck</artifactId>
+            <version>${micro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wkclz.microapp</groupId>
+            <artifactId>micro-seq</artifactId>
+            <version>${micro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wkclz.microapp</groupId>
+            <artifactId>micro-wxapp</artifactId>
+            <version>${micro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wkclz.microapp</groupId>
+            <artifactId>micro-wxmp</artifactId>
+            <version>${micro.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>
