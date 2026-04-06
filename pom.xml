@@ -26,6 +26,8 @@
         <revision>5.0.0-SNAPSHOT</revision>
         <micro.version>5.0.0-SNAPSHOT</micro.version>
 
+        <iam-sdk.version>5.0.0-SNAPSHOT</iam-sdk.version>
+
         <maven.compiler.source>25</maven.compiler.source>
         <maven.compiler.target>25</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
