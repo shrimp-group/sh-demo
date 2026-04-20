@@ -27,6 +27,9 @@
         <micro.version>5.0.0-SNAPSHOT</micro.version>
 
         <iam-sdk.version>5.0.0-SNAPSHOT</iam-sdk.version>
+        <cms.version>5.0.0-SNAPSHOT</cms.version>
+        <pms.version>5.0.0-SNAPSHOT</pms.version>
+        <oms.version>5.0.0-SNAPSHOT</oms.version>
 
         <maven.compiler.source>25</maven.compiler.source>
         <maven.compiler.target>25</maven.compiler.target>

@@ -23,6 +23,24 @@
             <artifactId>iam-admin</artifactId>
             <version>${revision}</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.wkclz.cms</groupId>
+            <artifactId>sh-cms-admin</artifactId>
+            <version>${cms.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wkclz.pms</groupId>
+            <artifactId>sh-pms-admin</artifactId>
+            <version>${pms.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wkclz.oms</groupId>
+            <artifactId>sh-oms-admin</artifactId>
+            <version>${oms.version}</version>
+        </dependency>
+
+
         <dependency>
             <groupId>com.wkclz.generator</groupId>
             <artifactId>generator-server</artifactId>
