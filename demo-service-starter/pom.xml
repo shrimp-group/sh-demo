@@ -60,7 +60,7 @@
         </dependency>
         <dependency>
             <groupId>com.wkclz.microapp</groupId>
-            <artifactId>micro-file</artifactId>
+            <artifactId>micro-fileos</artifactId>
             <version>${micro.version}</version>
         </dependency>
         <dependency>
