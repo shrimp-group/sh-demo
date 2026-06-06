@@ -65,6 +65,11 @@
         </dependency>
         <dependency>
             <groupId>com.wkclz.microapp</groupId>
+            <artifactId>micro-material</artifactId>
+            <version>${micro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wkclz.microapp</groupId>
             <artifactId>micro-form</artifactId>
             <version>${micro.version}</version>
         </dependency>
@@ -116,6 +121,11 @@
         <dependency>
             <groupId>com.wkclz.microapp</groupId>
             <artifactId>micro-wxmp</artifactId>
+            <version>${micro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wkclz.microapp</groupId>
+            <artifactId>micro-report</artifactId>
             <version>${micro.version}</version>
         </dependency>
 
