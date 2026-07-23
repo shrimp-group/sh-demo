@@ -14,8 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>com.wkclz.iam</groupId>
-            <artifactId>iam-sdk</artifactId>
-            <version>${iam-sdk.version}</version>
+            <artifactId>iam-session</artifactId>
         </dependency>
         <dependency>
             <groupId>com.wkclz.framework</groupId>

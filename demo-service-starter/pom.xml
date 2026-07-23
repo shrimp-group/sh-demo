@@ -24,6 +24,7 @@
             <version>${revision}</version>
         </dependency>
 
+        <!--
         <dependency>
             <groupId>com.wkclz.cms</groupId>
             <artifactId>sh-cms-admin</artifactId>
@@ -39,19 +40,18 @@
             <artifactId>sh-oms-admin</artifactId>
             <version>${oms.version}</version>
         </dependency>
-
+        -->
 
         <dependency>
             <groupId>com.wkclz.generator</groupId>
             <artifactId>generator-server</artifactId>
-            <version>${revision}</version>
+            <version>${generator.version}</version>
         </dependency>
         <dependency>
             <groupId>com.wkclz.microapp</groupId>
             <artifactId>micro-k8s</artifactId>
             <version>${micro.version}</version>
         </dependency>
-
 
         <dependency>
             <groupId>com.wkclz.microapp</groupId>

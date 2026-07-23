@@ -1,12 +1,11 @@
 package com.wkclz.demo.pojo.entity;
 
-import com.wkclz.core.annotation.Desc;
 import com.wkclz.core.base.BaseEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-import java.time.LocalDateTime;
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
 /**
  * Description Create by sh-generator
@@ -21,223 +20,186 @@ public class DemoTypes extends BaseEntity {
     /**
      * type_int
      */
-    @Desc("type_int")
     private Integer typeInt;
 
     /**
      * type_bigint
      */
-    @Desc("type_bigint")
     private Long typeBigint;
 
     /**
      * type_binary
      */
-    @Desc("type_binary")
     private byte[] typeBinary;
 
     /**
      * type_bit
      */
-    @Desc("type_bit")
     private Boolean typeBit;
 
     /**
      * type_blob
      */
-    @Desc("type_blob")
     private byte[] typeBlob;
 
     /**
      * type_char
      */
-    @Desc("type_char")
     private String typeChar;
 
     /**
      * type_date
      */
-    @Desc("type_date")
     private LocalDateTime typeDate;
 
     /**
      * type_datetime
      */
-    @Desc("type_datetime")
     private LocalDateTime typeDatetime;
 
     /**
      * type_decimal
      */
-    @Desc("type_decimal")
     private BigDecimal typeDecimal;
 
     /**
      * type_double
      */
-    @Desc("type_double")
     private Double typeDouble;
 
     /**
      * type_float
      */
-    @Desc("type_float")
     private Float typeFloat;
 
     /**
      * type_geometry
      */
-    @Desc("type_geometry")
     private byte[] typeGeometry;
 
     /**
      * type_geometrycollection
      */
-    @Desc("type_geometrycollection")
     private String typeGeometrycollection;
 
     /**
      * type_integer
      */
-    @Desc("type_integer")
     private Integer typeInteger;
 
     /**
      * type_json [MBG不支持JSON]
      */
-    @Desc("type_json [MBG不支持JSON]")
     private String typeJson;
 
     /**
      * type_linestring
      */
-    @Desc("type_linestring")
     private Object typeLinestring;
 
     /**
      * type_longblob
      */
-    @Desc("type_longblob")
     private byte[] typeLongblob;
 
     /**
      * type_longtext
      */
-    @Desc("type_longtext")
     private String typeLongtext;
 
     /**
      * type_mediumblob
      */
-    @Desc("type_mediumblob")
     private byte[] typeMediumblob;
 
     /**
      * type_mediumint
      */
-    @Desc("type_mediumint")
     private Integer typeMediumint;
 
     /**
      * type_mediumtext
      */
-    @Desc("type_mediumtext")
     private String typeMediumtext;
 
     /**
      * type_multilinestring
      */
-    @Desc("type_multilinestring")
     private Object typeMultilinestring;
 
     /**
      * type_multipoint
      */
-    @Desc("type_multipoint")
     private Object typeMultipoint;
 
     /**
      * type_multipolygon
      */
-    @Desc("type_multipolygon")
     private Object typeMultipolygon;
 
     /**
      * type_numeric
      */
-    @Desc("type_numeric")
     private BigDecimal typeNumeric;
 
     /**
      * type_point
      */
-    @Desc("type_point")
     private Object typePoint;
 
     /**
      * type_polygon
      */
-    @Desc("type_polygon")
     private Object typePolygon;
 
     /**
      * type_real
      */
-    @Desc("type_real")
     private Double typeReal;
 
     /**
      * type_text
      */
-    @Desc("type_text")
     private String typeText;
 
     /**
      * type_time
      */
-    @Desc("type_time")
     private LocalDateTime typeTime;
 
     /**
      * type_timestamp
      */
-    @Desc("type_timestamp")
     private LocalDateTime typeTimestamp;
 
     /**
      * type_tinyblob
      */
-    @Desc("type_tinyblob")
     private byte[] typeTinyblob;
 
     /**
      * type_tinyint
      */
-    @Desc("type_tinyint")
     private Integer typeTinyint;
 
     /**
      * type_tinytext
      */
-    @Desc("type_tinytext")
     private String typeTinytext;
 
     /**
      * type_varbinary
      */
-    @Desc("type_varbinary")
     private byte[] typeVarbinary;
 
     /**
      * type_varchar
      */
-    @Desc("type_varchar")
     private String typeVarchar;
 
     /**
      * type_year
      */
-    @Desc("type_year")
     private LocalDateTime typeYear;
 
 
