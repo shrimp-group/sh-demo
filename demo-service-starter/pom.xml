@@ -24,7 +24,6 @@
             <version>${revision}</version>
         </dependency>
 
-        <!--
         <dependency>
             <groupId>com.wkclz.cms</groupId>
             <artifactId>sh-cms-admin</artifactId>
@@ -40,7 +39,6 @@
             <artifactId>sh-oms-admin</artifactId>
             <version>${oms.version}</version>
         </dependency>
-        -->
 
         <dependency>
             <groupId>com.wkclz.generator</groupId>
