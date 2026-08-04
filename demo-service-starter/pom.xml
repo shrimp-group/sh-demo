@@ -90,11 +90,6 @@
         </dependency>
         <dependency>
             <groupId>com.wkclz.microapp</groupId>
-            <artifactId>micro-msg</artifactId>
-            <version>${micro.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.wkclz.microapp</groupId>
             <artifactId>micro-pay</artifactId>
             <version>${micro.version}</version>
         </dependency>
@@ -129,6 +124,13 @@
             <version>${micro.version}</version>
         </dependency>
 
+        <!--
+        <dependency>
+            <groupId>com.wkclz.microapp</groupId>
+            <artifactId>micro-msg</artifactId>
+            <version>${micro.version}</version>
+        </dependency>
+        -->
     </dependencies>
 
     <build>
