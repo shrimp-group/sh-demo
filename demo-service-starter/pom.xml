@@ -24,13 +24,11 @@
             <version>${revision}</version>
         </dependency>
 
-        <!--
         <dependency>
             <groupId>com.wkclz.cms</groupId>
             <artifactId>sh-cms-admin</artifactId>
             <version>${cms.version}</version>
         </dependency>
-        -->
         <dependency>
             <groupId>com.wkclz.pms</groupId>
             <artifactId>sh-pms-admin</artifactId>
