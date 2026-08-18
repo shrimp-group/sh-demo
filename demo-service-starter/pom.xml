@@ -121,6 +121,11 @@
             <artifactId>micro-report</artifactId>
             <version>${micro.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.wkclz.microapp</groupId>
+            <artifactId>micro-flowable</artifactId>
+            <version>${micro.version}</version>
+        </dependency>
 
         <!--
         <dependency>
