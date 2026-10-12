@@ -15,29 +15,47 @@
 
         <dependency>
             <groupId>com.wkclz.iam</groupId>
-            <artifactId>iam-sso</artifactId>
-            <version>${revision}</version>
+            <artifactId>iam-portal</artifactId>
+            <version>${iam.version}</version>
         </dependency>
         <dependency>
             <groupId>com.wkclz.iam</groupId>
             <artifactId>iam-admin</artifactId>
-            <version>${revision}</version>
+            <version>${iam.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.wkclz.cms</groupId>
             <artifactId>sh-cms-admin</artifactId>
             <version>${cms.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.wkclz.iam</groupId>
+                    <artifactId>iam-sso</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.wkclz.pms</groupId>
             <artifactId>sh-pms-admin</artifactId>
             <version>${pms.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.wkclz.iam</groupId>
+                    <artifactId>iam-sso</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.wkclz.oms</groupId>
             <artifactId>sh-oms-admin</artifactId>
             <version>${oms.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.wkclz.iam</groupId>
+                    <artifactId>iam-sso</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
