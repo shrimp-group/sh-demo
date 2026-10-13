@@ -28,7 +28,7 @@
         <miniapp.version>5.0.1-SNAPSHOT</miniapp.version>
         <generator.version>5.0.1-SNAPSHOT</generator.version>
 
-        <iam.version>5.0.1-SNAPSHOT</iam.version>
+        <iam.version>5.1.0-SNAPSHOT</iam.version>
         <cms.version>5.0.1-SNAPSHOT</cms.version>
         <pms.version>5.0.1-SNAPSHOT</pms.version>
         <oms.version>5.0.1-SNAPSHOT</oms.version>
