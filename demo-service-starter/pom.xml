@@ -28,34 +28,16 @@
             <groupId>com.wkclz.cms</groupId>
             <artifactId>sh-cms-admin</artifactId>
             <version>${cms.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.wkclz.iam</groupId>
-                    <artifactId>iam-sso</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.wkclz.pms</groupId>
             <artifactId>sh-pms-admin</artifactId>
             <version>${pms.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.wkclz.iam</groupId>
-                    <artifactId>iam-sso</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.wkclz.oms</groupId>
             <artifactId>sh-oms-admin</artifactId>
             <version>${oms.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.wkclz.iam</groupId>
-                    <artifactId>iam-sso</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
 
         <dependency>
