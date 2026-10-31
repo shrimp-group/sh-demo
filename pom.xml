@@ -32,6 +32,7 @@
         <cms.version>5.0.1-SNAPSHOT</cms.version>
         <pms.version>5.0.1-SNAPSHOT</pms.version>
         <oms.version>5.0.1-SNAPSHOT</oms.version>
+        <llm.version>5.0.0-SNAPSHOT</llm.version>
 
         <maven.compiler.source>25</maven.compiler.source>
         <maven.compiler.target>25</maven.compiler.target>

@@ -31,21 +31,4 @@
         </dependency>
     </dependencies>
 
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>com.wkclz.generator</groupId>
-                <artifactId>generator-client</artifactId>
-                <version>5.0.0-SNAPSHOT</version>
-                <configuration>
-                    <options>
-                        <option>sh_demo</option>
-                    </options>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-
-
 </project>

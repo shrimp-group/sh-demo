@@ -41,10 +41,11 @@
         </dependency>
 
         <dependency>
-            <groupId>com.wkclz.generator</groupId>
-            <artifactId>generator-server</artifactId>
-            <version>${generator.version}</version>
+            <groupId>com.wkclz.llm</groupId>
+            <artifactId>llm</artifactId>
+            <version>${llm.version}</version>
         </dependency>
+
         <dependency>
             <groupId>com.wkclz.microapp</groupId>
             <artifactId>micro-k8s</artifactId>
