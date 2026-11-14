@@ -79,11 +79,6 @@
         </dependency>
         <dependency>
             <groupId>com.wkclz.microapp</groupId>
-            <artifactId>micro-liteflow</artifactId>
-            <version>${micro.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.wkclz.microapp</groupId>
             <artifactId>micro-mask</artifactId>
             <version>${micro.version}</version>
         </dependency>
@@ -128,7 +123,17 @@
             <version>${micro.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.wkclz.microapp</groupId>
+            <artifactId>micro-dag</artifactId>
+            <version>${micro.version}</version>
+        </dependency>
         <!--
+        <dependency>
+            <groupId>com.wkclz.microapp</groupId>
+            <artifactId>micro-liteflow</artifactId>
+            <version>${micro.version}</version>
+        </dependency>
         <dependency>
             <groupId>com.wkclz.microapp</groupId>
             <artifactId>micro-msg</artifactId>
