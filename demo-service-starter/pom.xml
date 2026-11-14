@@ -104,7 +104,7 @@
         </dependency>
         <dependency>
             <groupId>com.wkclz.miniapp</groupId>
-            <artifactId>sh-miniapp-biz</artifactId>
+            <artifactId>miniapp-biz</artifactId>
             <version>${miniapp.version}</version>
         </dependency>
         <dependency>
