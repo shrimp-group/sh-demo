@@ -8,6 +8,12 @@ RUN mvn -s settings.xml clean -Dmaven.test.skip=true -pl demo-service-starter -a
 # 基础镜像使用java
 FROM eclipse-temurin:25-jdk-alpine AS runner
 
+# 时区，默认为 UTC，这里指定为上海
+ENV TZ=Asia/Shanghai
+RUN apk add --no-cache tzdata \
+    && cp /usr/share/zoneinfo/$TZ /etc/localtime \
+    && echo $TZ > /etc/timezone
+
 # 作者
 MAINTAINER wangkc <wkclz@qq.com>
 
